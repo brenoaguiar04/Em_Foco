@@ -1,0 +1,22 @@
+Usando o github.
+Parte 1.
+Criar um repositório local, usar cd ou dir pra ir até a pasta que será usada como repositório, adicionar os arquivos lá
+logo em seguida, usar git init > cria o repositorio
+depois git add . > adiciona o arquivo ao repositorio
+depois git commit -m "primeiro commit" > comita os arquivos pro repositorio
+Criar um repositorio online, vulgo github
+pegar o link, exemplo : https://github.com/brenoaguiar04/testando.git
+ai pra passar os arquivos do repositorio local pro repositorio online, usar o seguinte comando
+git remote add origin https://github.com/brenoaguiar04/testando.git
+depois: git push origin master
+Pronto, seu repositorio local foi pro virtual.
+
+Pra passar o arquivo do local pro remoto, voce precisa do comando git push origin master
+é sempre o mesmo comando.
+
+Criando uma nova branch.
+Comando: git checkout -b nomebranch 
+
+Fazer um Merge (trazer as alteraçoes de uma branch pra outra)
+Comando: git merge nomebranch
+
